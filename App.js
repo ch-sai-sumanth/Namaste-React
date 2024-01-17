@@ -8,10 +8,12 @@ import ReactDOM from "react-dom/client";
 
 const Title=()=>(<h1>Namaste React from Title functional component</h1>);
 
+const elem=<p>I am element</p>;
 const Head=()=>(
     <>
     {/* component composition: using a component in other component */}
-    <Title/>   
+    <Title/>
+    {elem}
     <h2>Namsaste React from Head Component</h2>
     </>
 );
